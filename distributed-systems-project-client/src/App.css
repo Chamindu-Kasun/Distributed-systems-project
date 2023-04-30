@@ -1,0 +1,154 @@
+.profile {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.welcome-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profile-banner {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.game-board {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.square {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.square-X {
+  color: red;
+  border: 2px solid red;
+}
+
+.square-O {
+  color: green;
+  border: 2px solid green;
+}
+
+.status {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  font-weight: 500;
+}
+
+.status span {
+  display: flex;
+  align-items: center;
+}
+
+.status-winner {
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.status-winner-true {
+  color: red;
+}
+
+.status-winner-false {
+  color: green;
+}
+
+.status-winner-X {
+  color: red;
+}
+
+.status-winner-O {
+  color: green;
+}
+
+.status-winner-logo {
+  font-size: 40px;
+}
+
+.refresh-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*  */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div {
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 16px;
+  width: 300px;
+  /* max-width: 100%; */
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 322px;
+  max-width: 100%;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+button:hover {
+  /* background-color: #388e3c; */
+}
+
+.login-image {
+  height: 200px;
+  border-radius: 50%;
+}
